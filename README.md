@@ -15,5 +15,5 @@ continuação do projeto `scrape-biquini` disponível em
 
 ------------------------------------------------------------------------
 
-**A API foi desenvolvida com a *Linguagem R* está disponível em [API
+**A API foi desenvolvida com a *Linguagem R* e está disponível em [API
 Biquini Cavadão](https://api-biquini.herokuapp.com)**

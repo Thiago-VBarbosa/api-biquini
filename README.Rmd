@@ -13,7 +13,7 @@ Para você que estava ancioso(a) e sem dormir por não ter um local onde consegu
 
 ---
 
-**A API foi desenvolvida com a _Linguagem R_ está disponível em [API Biquini Cavadão](https://api-biquini.herokuapp.com)**
+**A API foi desenvolvida com a _Linguagem R_ e está disponível em [API Biquini Cavadão](https://api-biquini.herokuapp.com)**
 
 
 
