@@ -37,7 +37,7 @@ function(album){
 
 #* Retorna informações sobre o histórico de shows do Biquini Cavadão
 #* @param pais Nome do País
-#* @param estado Nome do Estado
+#* @param estado Sigla do Estado. Ex: SP ou RJ
 #* @param cidade Nome da Cidade
 #* @get /shows
 function(pais = "", estado = "", cidade = ""){
