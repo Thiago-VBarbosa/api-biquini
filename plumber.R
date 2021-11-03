@@ -7,7 +7,7 @@
 
 functions <- c("functions/utils/test_option.R","functions/utils/get_query.R",
   "functions/get_shows.R","functions/get_lyrics.R","functions/get_albuns_info.R",
-  "functions/get_musicas.R")
+  "functions/get_musicas.R","functions/utils/db_connect.R")
 
 lapply(functions, FUN = source)
 

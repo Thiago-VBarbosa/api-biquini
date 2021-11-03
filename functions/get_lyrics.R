@@ -1,10 +1,5 @@
 get_lyrics <- function(album, musica){
-  con <- DBI::dbConnect(RPostgres::Postgres(),
-                        host = Sys.getenv("DB_HOST"),
-                        dbname = Sys.getenv("DB_NAME"),
-                        user = Sys.getenv("DB_USER"),
-                        password = Sys.getenv("DB_PASSWORD"),
-                        port = Sys.getenv("DB_PORT"))
+  con <- db_connect()
   
   query <- DBI::sqlInterpolate(con, sql = "SELECT letra FROM lyrics
                                WHERE album = ?album_entry AND
